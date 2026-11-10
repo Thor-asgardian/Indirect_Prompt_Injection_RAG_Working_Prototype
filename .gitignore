@@ -1,0 +1,66 @@
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# VS Code
+.vscode/
+!.vscode/extensions.json
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Machine Learning artifacts
+ml_artifacts/*.joblib
+ml_artifacts/*.pkl
+ml_artifacts/*.model
+
+# ChromaDB persistent database
+chroma_db/
+chroma/
+.chromadb/
+
+# Logs
+logs/*.log
+logs/*.jsonl
+
+# Generated evaluation results
+evaluation_results.csv
+independent_evaluation_results.csv
+validation_threshold_results.csv
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Build and distribution
+build/
+dist/
+*.egg-info/
+
+# Test and coverage files
+.pytest_cache/
+.coverage
+htmlcov/

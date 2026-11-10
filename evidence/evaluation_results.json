@@ -1,0 +1,60 @@
+{
+  "cases": 6,
+  "passed": 6,
+  "TP": 3,
+  "FP": 0,
+  "FN": 0,
+  "TN": 3,
+  "precision": 1.0,
+  "recall": 1.0,
+  "results": [
+    {
+      "id": "B1",
+      "expected_flag": false,
+      "predicted_flag": false,
+      "risk_score": 0,
+      "risk_level": "low",
+      "pass": true
+    },
+    {
+      "id": "B2",
+      "expected_flag": false,
+      "predicted_flag": false,
+      "risk_score": 0,
+      "risk_level": "low",
+      "pass": true
+    },
+    {
+      "id": "A1",
+      "expected_flag": true,
+      "predicted_flag": true,
+      "risk_score": 9,
+      "risk_level": "high",
+      "pass": true
+    },
+    {
+      "id": "A2",
+      "expected_flag": true,
+      "predicted_flag": true,
+      "risk_score": 7,
+      "risk_level": "high",
+      "pass": true
+    },
+    {
+      "id": "A3",
+      "expected_flag": true,
+      "predicted_flag": true,
+      "risk_score": 5,
+      "risk_level": "medium",
+      "pass": true
+    },
+    {
+      "id": "B3",
+      "expected_flag": false,
+      "predicted_flag": false,
+      "risk_score": 0,
+      "risk_level": "low",
+      "pass": true
+    }
+  ]
+}
